@@ -216,3 +216,6 @@ scratchwork/
 blip2_runner.py
 LAVIS/
 pretrained_models/
+
+samples/*
+!samples/.gitkeep

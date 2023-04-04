@@ -5,7 +5,7 @@ im = load_image(
 )
 query = "How many muffins can each kid have for it to be fair?"
 
-show_single_image(im)
+show_single_image(im, saved=True)
 code = get_code(query)
 
 execute_code(code, im, show_intermediate_steps=True)
